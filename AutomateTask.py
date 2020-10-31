@@ -1,9 +1,6 @@
 import shutil
 import os
 
-# E:/Sravans Desktop Apps
-# C:/Users/Teju Sraav/Desktop/Backup
-
 source_path = input("Pls give the path of a Folder you want to take Backup : ")
 back_path = input(
     "Pls give the path of a Folder where you want to store the Backup : ")
@@ -34,3 +31,4 @@ for i in listOfItems2:
     shutil.move(back_path+'/'+i, finalPath+'/'+i)
 
 print("Sorting Completed!!")
+print("Congratulations !! All your files are Ready")
